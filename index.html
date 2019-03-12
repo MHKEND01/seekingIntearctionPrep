@@ -1,0 +1,15 @@
+<html>
+<body>
+<a href="https://infogram.com/starbucks-fall-drinks?src=web">Link to interactive visualization</a>
+<p>The linked data visualization is to a simple pie chart of Starbucks drink preferences. When users hover over each section of the
+chart, a label appears next to the user's cursor. WHen the user hovers over the labels in the legend, the non-targeted sections are
+tinted to highlight the targeted section. If I were to make this chart in d3, I would add event listener methods to both the label elements
+in the key and the sections of the bar chart. Both would check for mouseovers, in the genearal layout of: ".on("mouseover", function(){});"
+The event listener for the key labels would select the sections of the pie chart and use the .attr("fill", "color") to reset the color 
+of the non-targeted sections to a lighter color. The other event listener would generate a svg element toolkit with the correct label text
+when users hover ove the pie chart sections. The function would be similar to the svg tooltip generation method described in the textbook.
+Howver, unlike in the textbook method, the tooltip wold have to move with the user's cursor. That would be more difficult to accomplish, and 
+I would have to look up additional d3 or JavaScript methods to bind the tooltip to the cursor, so that it can move as the cursor moves.
+</p>
+</body>
+</html>

@@ -1,6 +1,6 @@
 <html>
 <body>
-<a href="https://infogram.com/starbucks-fall-drinks?src=web">Link to interactive visualization</a>
+<a href="https://infogram.com/starbucks-fall-drinks?src=web">Link to interactive visualization 1</a>
 <p>The linked data visualization is to a simple pie chart of Starbucks drink preferences. When users hover over each section of the
 chart, a label appears next to the user's cursor. When the user hovers over the labels in the legend, the non-targeted sections are
 tinted to highlight the targeted section. If I were to make this chart in d3, I would add event listener methods to both the label elements
@@ -11,5 +11,8 @@ when users hover over the pie chart sections. The function would be similar to t
 However, unlike in the textbook method, the tooltip would have to move with the user's cursor. That would be more difficult to accomplish, and 
 I would have to look up additional d3 or JavaScript methods to bind the tooltip to the cursor, so that it can move as the cursor moves.
 </p>
+  <a href="https://infogram.com/starbucks-runs-how-many?src=web">Link to interactive visualization 2</a>
+  <p> This second interactive data visualization displays a series of rings. When the user hovers over them, the rings change colors and an appropriate label appears. If I were to create this in d3, I would use an event listener on the ring elements which checks for mouseover events. When a mouseover is detected, the executed function would recolor the current ring element with the .attr("fill", "color") method to an appropriate color. Again, the event listener would also generate a svg tooltip as described in the textbook, but I would have to research a way to bind the tooltip to the cursor so that it moves as the cursor moves.
+  </p>
 </body>
 </html>
